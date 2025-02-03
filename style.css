@@ -75,10 +75,14 @@ section {
 
 
 .bg-white {
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
 
+}
+
+.bg-gray {
+    background-color: #f6f6f6;
 }
 
 /*jumbotron */
@@ -174,27 +178,28 @@ p {
 
 /* quinta sezione - quadrato verde dentro al grigio */
 .container-green {
-    background-color: #228b22;
     width: 50%;
     height: 100%;
     margin: 0 auto;
 }
 
+.just-chilling {
+    text-align: center;
+    max-width: 100%;
+}
+
 /* quinta sezione - quadrato verde dentro al grigio */
 
-.bg-gray {
-    background-color: gray;
-}
 
-.bg-black {
-    background-color: black;
-}
+
+
 
 /* footer */
 
 footer {
+    max-height: 500px;
     padding: 50px;
-    background-color: black;
+    background-color: #23272a;
 }
 
 .columns {
