@@ -138,11 +138,18 @@ section {
     margin-right: 30px;
 }
 
+
 .text {
 
     height: 400px;
     width: 30%;
     margin-left: 30px;
+
+}
+
+.study-group {
+    display: flex;
+    -ms-flex-align: start;
 
 }
 
