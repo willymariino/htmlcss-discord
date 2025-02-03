@@ -211,21 +211,21 @@ footer {
 
 .stars-background {
     transform: translate(50%, 50%);
-    width: 100%;
+    width: 75%;
     height: auto;
     display: block;
 }
 
 .cta-text {
     top: 50%;
-    transform: translate(50%, 50%);
+    transform: translate(30%, 50%);
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
 .mac-bottom {
-    transform: translate(-80px, 100px);
+    transform: translate(-260px, 100px);
     margin-top: 40px;
     padding: 14px 50px 8px;
     font-family: sans-serif;
@@ -234,8 +234,6 @@ footer {
 }
 
 .columns {
-    margin-top: 200px;
-    margin-bottom: 200px;
     height: 500px;
     border: 1px solid white;
     display: flex;
