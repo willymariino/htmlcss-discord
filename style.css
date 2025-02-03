@@ -74,23 +74,23 @@ section {
 
 /* impostazioni della grandezza dei background delle section bianco-grige */
 
-.bg-azure {
-    background-color: azure;
-}
 
 .bg-white {
     background-color: white;
+    display: flex;
+    justify-content: center;
+
 }
 
 /*sezione primo quadrante rosa dentro blu  */
 
-.bg-blue {
+.bg-jumbotron {
     height: 600px;
     padding: 60px;
 
 }
 
-.container-pink {
+.container-text {
     width: 50%;
     height: 100%;
     margin: 0 auto;
@@ -131,19 +131,19 @@ section {
 }
 
 /* impostazioni quadrato blu e rettangolo rosa */
-.blue-square {
+.image {
 
     height: 400px;
     width: 70%;
-    background-color: #1e90ff;
+    margin-right: 30px;
 }
 
-.pink-rectangle {
+.text {
 
     height: 400px;
     width: 30%;
-    background-color: ;
-    background-color: #ffc0cb;
+    margin-left: 30px;
+
 }
 
 /* impostazioni quadrato blu e rettangolo rosa */
