@@ -246,14 +246,12 @@ h3 {
 
 }
 
-.language {
-    display: flex;
-    align-items: center;
 
-}
 
-.brands {
-    padding-top: 50px;
+
+
+.fa-brands {
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
 }
