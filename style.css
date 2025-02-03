@@ -100,6 +100,30 @@ section {
     margin: 0 auto;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mac {
+    margin-top: 40px;
+    padding: 15px;
+    font-family: sans-serif;
+    border-radius: 35%;
+}
+
+.browser {
+    margin-top: 40px;
+    border-radius: 35%;
+    padding: 15px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+
 /* sezione sezione primo quadrante rosa dentro blu*/
 
 .container {
