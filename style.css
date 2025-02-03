@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-header {
-    background-image: ;
-}
+
+
 
 .container {
     margin: 0 auto;
@@ -82,7 +81,7 @@ section {
 
 }
 
-/*sezione primo quadrante rosa dentro blu  */
+/*jumbotron */
 
 .bg-jumbotron {
     height: 600px;
@@ -124,36 +123,53 @@ section {
 }
 
 
-/* sezione sezione primo quadrante rosa dentro blu*/
+/*jumbotron */
+
+
+/* impostazioni main page */
 
 .container {
     display: flex;
 }
 
-/* impostazioni quadrato blu e rettangolo rosa */
+
 .image {
 
     height: 400px;
     width: 70%;
     margin-right: 30px;
+    display: flex;
+    max-width: 100%;
 }
 
 
 .text {
 
+    margin-top: 20px;
     height: 400px;
     width: 30%;
     margin-left: 30px;
 
 }
 
-.study-group {
-    display: flex;
-    -ms-flex-align: start;
+strong {
+    font-size: 40px;
 
 }
 
-/* impostazioni quadrato blu e rettangolo rosa */
+p {
+    padding-top: 20px;
+}
+
+.study-group {
+    display: flex;
+    max-width: 100%;
+}
+
+
+
+
+/* /* impostazioni main page */
 
 
 /* quinta sezione - quadrato verde dentro al grigio */
