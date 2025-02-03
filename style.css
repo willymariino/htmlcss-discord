@@ -192,16 +192,6 @@ p {
 
 
 
-
-
-/* footer */
-
-footer {
-    height: 500px;
-    padding-top: 50px;
-    background-color: #23272a;
-}
-
 .start-adventure {
     position: relative;
     display: inline-block;
@@ -233,25 +223,59 @@ footer {
     background-color: #7288da;
 }
 
-.columns {
-    height: 500px;
-    border: 1px solid white;
+/* footer */
+
+footer {
+    color: #ffffff;
+    padding: 50px 0;
+    background-color: #23272a;
+}
+
+.footer-top {
+    height: 600px;
+    padding-bottom: 30px;
     display: flex;
+}
+
+.footer-left {
+    width: 200px;
+}
+
+h3 {
+    color: #7288da;
 
 }
 
-.pink {
-    background-color: #f08080;
-    width: 250px;
+.ita {
+    margin-top: 20px;
 
 }
 
-.acqua-green {
-
-    background-color: #20b2aa;
-    width: 700px;
-
+.brands {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
+.footer-right {
+    flex-basis: 60%
+}
+
+.footer-nav {
+    height: 100%;
+    display: flex;
+}
+
+.footer-columns {
+    flex-basis: 25%;
+    border-color: #ffffff;
+}
+
+
+
+
 
 
 /* footer */
