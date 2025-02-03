@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header {
+    background-image: ;
+}
+
 .container {
     margin: 0 auto;
     /* width: 1200 */
@@ -48,6 +52,7 @@ header .main-nav {
 header .main-nav>div.login {
     text-align: right;
 }
+
 
 
 
