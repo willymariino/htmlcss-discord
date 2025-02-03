@@ -24,7 +24,6 @@ header {
 
 header .main-nav {
     display: flex;
-    background-color: #daa520;
     width: 100%;
     justify-content: space-around;
 
@@ -86,14 +85,12 @@ section {
 /*sezione primo quadrante rosa dentro blu  */
 
 .bg-blue {
-    background-color: #00008b;
     height: 600px;
     padding: 60px;
 
 }
 
 .container-pink {
-    background-color: #ee82ee;
     width: 50%;
     height: 100%;
     margin: 0 auto;
