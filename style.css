@@ -94,6 +94,10 @@ section {
     width: 50%;
     height: 100%;
     margin: 0 auto;
+    font-family: sans-serif;
+    color: white;
+    font-size: large;
+    margin: 0 auto;
 }
 
 /* sezione sezione primo quadrante rosa dentro blu*/
