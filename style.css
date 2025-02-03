@@ -258,7 +258,9 @@ h3 {
 
 
 
-.footer-right {}
+.footer-right {
+    flex-basis: 70%;
+}
 
 .footer-nav {
     height: 100%;
@@ -270,6 +272,18 @@ h3 {
     border-color: #ffffff;
 }
 
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-color: #ffffff;
+}
+
+.footer-bottom>* {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
