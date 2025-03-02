@@ -217,7 +217,7 @@ p {
 .mac-bottom {
     transform: translate(-260px, 100px);
     margin-top: 40px;
-    padding: 14px 50px 8px;
+  /*  padding: 14px 50px 8px; */
     font-family: sans-serif;
     border-radius: 35%;
     background-color: #7288da;
