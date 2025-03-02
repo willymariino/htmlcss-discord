@@ -287,7 +287,8 @@ h3 {
 
 @media screen and (max-width: 768px) {
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .image {
@@ -331,7 +332,8 @@ h3 {
 
 @media screen and (max-width: 480px) {
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .image {
