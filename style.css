@@ -19,6 +19,8 @@
 header {
     background-color: #add8e6;
     padding: 15px 0;
+    background-position: center; 
+    background-size: cover;
 }
 
 header .main-nav {
@@ -111,15 +113,15 @@ section {
 
 .mac {
     margin-top: 40px;
-    padding: 14px 50px 8px;
+    padding: 10px 20px;
     font-family: sans-serif;
-    border-radius: 35%;
+    border-radius: 35px;
 }
 
 .browser {
     margin-top: 40px;
-    border-radius: 35%;
-    padding: 14px 50px 8px;
+    border-radius: 35px;
+    padding: 10px 20px;
     font-family: sans-serif;
     background-color: black;
     color: white;
@@ -217,9 +219,10 @@ p {
 .mac-bottom {
     transform: translate(-260px, 100px);
     margin-top: 40px;
-    padding: 14px 50px 8px;
+  /*  padding: 14px 50px 8px; */
+    padding: 10px 20px;
     font-family: sans-serif;
-    border-radius: 35%;
+    border-radius: 35px;
     background-color: #7288da;
 }
 
