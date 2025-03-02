@@ -19,6 +19,8 @@
 header {
     background-color: #add8e6;
     padding: 15px 0;
+    backgound-position: center
+    background-size: cover
 }
 
 header .main-nav {
