@@ -113,7 +113,7 @@ section {
 
 .mac {
     margin-top: 40px;
-    padding: 20px 25px;
+    padding: 15px 20px;
     font-family: sans-serif;
     border-radius: 35px;
 }
@@ -121,7 +121,7 @@ section {
 .browser {
     margin-top: 40px;
     border-radius: 35px;
-    padding: 20px 25px;
+    padding: 15px 20px;
     font-family: sans-serif;
     background-color: black;
     color: white;
@@ -220,7 +220,7 @@ p {
     transform: translate(-260px, 100px);
     margin-top: 40px;
   /*  padding: 14px 50px 8px; */
-    padding: 20px 25px;
+    padding: 15px 20px;
     font-family: sans-serif;
     border-radius: 35px;
     background-color: #7288da;
