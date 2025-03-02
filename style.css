@@ -17,8 +17,12 @@
 }
 
 header {
+
     background-color: #add8e6;
     padding: 15px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header .main-nav {
@@ -111,21 +115,20 @@ section {
 
 .mac {
     margin-top: 40px;
-    padding: 14px 50px 8px;
+    padding: 10px 20px;
     font-family: sans-serif;
-    border-radius: 35%;
+    border-radius: 35px;
 }
 
 .browser {
     margin-top: 40px;
-    border-radius: 35%;
-    padding: 14px 50px 8px;
+    border-radius: 35px;
+    padding: 10px 20px;
     font-family: sans-serif;
     background-color: black;
     color: white;
     margin-left: 20px;
 }
-
 
 /*jumbotron */
 
@@ -217,9 +220,10 @@ p {
 .mac-bottom {
     transform: translate(-260px, 100px);
     margin-top: 40px;
-    padding: 14px 50px 8px;
+    /*  padding: 14px 50px 8px; */
+    padding: 10px 20px;
     font-family: sans-serif;
-    border-radius: 35%;
+    border-radius: 35px;
     background-color: #7288da;
 }
 
@@ -285,6 +289,94 @@ h3 {
     justify-content: space-around;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container-green {
+        width: 100%;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer-columns {
+        flex-basis: 100%;
+    }
+
+    .footer-bottom {
+        display: block;
+    }
+
+    .footer-bottom>* {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        display: block;
+    }
+
+    .image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container-green {
+        width: 100%;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer-columns {
+        flex-basis: 100%;
+    }
+
+    .footer-bottom {
+        display: block;
+    }
+
+    .footer-bottom>* {
+        display: block;
+    }
+
+}
 
 
 
