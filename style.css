@@ -111,7 +111,7 @@ section {
 
 .mac {
     margin-top: 40px;
-    padding: 14px 50px 8px;
+    
     font-family: sans-serif;
     border-radius: 35px;
 }
@@ -119,7 +119,7 @@ section {
 .browser {
     margin-top: 40px;
     border-radius: 35px;
-    padding: 14px 50px 8px;
+    
     font-family: sans-serif;
     background-color: black;
     color: white;
